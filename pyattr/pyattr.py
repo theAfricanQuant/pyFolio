@@ -40,9 +40,6 @@ class Performance(object):
 
 	def PME():
 		"Public Market Equivalent (PME)"
-		#ticker, trade_dt, quantity, unit_cost, cost_basis, start_yr, dt, adj_cost, ticker_return
-		#index_close, index_st_close, share_ytd, index_ytd, cum_invst, cum_tic_return
-		pass
 
 
 

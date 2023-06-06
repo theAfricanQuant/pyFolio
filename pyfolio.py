@@ -6,21 +6,15 @@
 
 
 def allocation_effect():
-	# positive contribution: OW in sector OP index, UW in sector UP index
-	sector = (portw-benchw)*(benchr-benchtotal)
-	return sector
+	return (portw-benchw)*(benchr-benchtotal)
 
 
 def selection_effect():
-	# positive contribution: OP benchmark sector
-	selection = portw*(portr-benchr)
-	return selection
+	return portw*(portr-benchr)
 
 
 def interaction_effect():
-	# positive contribution: OW in port OP sector, UW in port UP sector
-	interaction = (portw-benchw)*(portr-benchr)
-	return interaction
+	return (portw-benchw)*(portr-benchr)
 
 
 def active_effect():
